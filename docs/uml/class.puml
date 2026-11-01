@@ -1,0 +1,18 @@
+@startuml
+
+class User {
+    - ID: int
+    - firstName: string
+    - lastName: string
+    - Username: string
+    - Password: string
+}
+
+class Color {
+    - UserID: int
+    - Name: string
+}
+
+User "1" -- "0..*" Color : owns
+
+@enduml
