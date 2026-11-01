@@ -1,0 +1,42 @@
+@startuml
+start
+
+:Enter username and password;
+:Submit login credentials;
+:Validate credentials;
+
+while (Login successful?) is (No)
+    :Display login error;
+    :Enter username and password;
+    :Submit login credentials;
+    :Validate credentials;
+endwhile (Yes)
+
+
+:Redirect to color.html;
+
+repeat
+    if (User action?) then (Add Color)
+        :Enter color name;
+        :Send color and user ID to AddColor.php;
+        :Insert color into database;
+        :Display confirmation;
+    else (Search Colors)
+        :Enter search term;
+        :Send search term and user ID to SearchColors.php;
+        :Query database for matching colors;
+
+        if (Colors found?) then (Yes)
+            :Display matching colors;
+        else (No)
+            :Return no records found;
+        endif
+    endif
+repeat while (Perform another action?) is (Yes)
+
+:Log Out;
+
+:Redirect to index.html;
+
+stop
+@enduml
