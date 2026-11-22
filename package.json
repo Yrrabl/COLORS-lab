@@ -1,0 +1,27 @@
+{
+  "name": "colors-lab",
+  "version": "1.0.0",
+  "description": "The COLORS application allows users to login and then add and search for specific colors linked to that login specifically. You will only be able to see colors the logged in user has added, and they will stay even after closing the website.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yrrabl/COLORS-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yrrabl/COLORS-lab/issues"
+  },
+  "homepage": "https://github.com/Yrrabl/COLORS-lab#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
