@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "indentation": null,
+    "selector-id-pattern": null,
+    "block-opening-brace-space-before": null,
+    "no-eol-whitespace": null,
+    "font-family-name-quotes": null,
+    "string-quotes": null,
+    "color-hex-case": null,
+    "color-hex-length": null,
+    "alpha-value-notation": null,
+    "rule-empty-line-before": null,
+    "selector-list-comma-newline-after": null
+  }
+}
